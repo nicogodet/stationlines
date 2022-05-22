@@ -1,0 +1,28 @@
+[general]
+name=Station Lines
+qgisMinimumVersion=3.22
+description=Create lines along polylines with some parameters (length, side, angle). It assumes a cartesian coordinate system 
+version=0.2.0
+author=Loïc BARTOLETTI, Nicolas GODET
+email=l.bartoletti@free.fr, nicolas.godet@outlook.fr
+
+about=Add an algorithm to create transects at a fixed distance
+
+# Uncomment the following line and add your changelog entries:
+changelog=
+    0.2.0: Resurection
+        Temporary plugin waiting for https://github.com/qgis/QGIS/issues/48663
+
+# tags are comma separated with spaces allowed
+tags=vector
+
+homepage=https://plugins.qgis.org/plugins/stationlines/
+tracker=https://plugins.qgis.org/plugins/stationlines/
+repository=https://github.com/lbartoletti/stationlines
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
